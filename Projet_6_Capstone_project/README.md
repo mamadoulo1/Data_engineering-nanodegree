@@ -18,23 +18,10 @@ The second dataset consists came from Kaggle and contains monthly average temper
 <h3>Schema for Immigration Data Analysis</h3>
 Using the US I94 immigration and Temperature datasets, we need to create a star schema optimized for queries on Immigration data analysis. This includes the following tables.
 <h5>Fact Table</h5>
-<ul>
-  <li>fact_table -  I94 immigration data joined with the city temperature data on i94port Columns <br>
-    (i94yr, i94mon, i94cit, i94port, arrdate, i94mode, depdate, i94visa, AverageTemperature)
-    </li>
-</ul>
- 
-<h5>Dimension Tables</h5>
+<h3>Schema for Immigration Data Analysis</h3>
 
-<ul>
-  <li>immigration_table -  I94 immigration data Events Columns<br>
-    (i94yr, i94mon, i94cit, i94port, arrdate, i94mode, depdate, i94visa)
-    </li>
-  <li>temperature_table - temperature data Columns <br>
-    (i94port, AverageTemperature, City, Country, Latitude, Longitude)
-    </li>
+![image info](star_schema.png)
 
-</ul> 
 
 
 <h3>Project files</h3>
