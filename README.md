@@ -1,8 +1,8 @@
 <h1>Udacity - Data Engineering Nanodgree Program</h1>
 
-<h3>Introduction</h3>
+#### Introduction
 In this program, we'll learn to design data models, build data warehouses and data lakes, automate data pipelines, and work with massive datasets. At the end of the program, we’ll combine all skills by completing a capstone project.
-More informations about Udacity's [Data Engineering Nanodegree Program](https://www.udacity.com/course/data-engineer-nanodegree--nd027). 
+More informations about Udacity's Data Engineering Nanodegree Program [here](https://www.udacity.com/course/data-engineer-nanodegree--nd027). 
 
 
 
